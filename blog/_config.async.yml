@@ -1,0 +1,23 @@
+theme:
+    switch: true
+    default: style-light # style-light style-dark
+
+user:
+  name: 小黄的前端
+  first_name: 小黄
+  last_name: 前端
+  email: Huanghaonan2007@outlook.com
+  domain: # 链接
+  avatar: /img/tx.jpg
+  describe: 网站简介。
+  ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+
+top_bars:
+  - title: 首页
+    url: /
+    children:
+      - title: archives2
+        url: /archives2/
+  - title: 归档
+    url: /archives/
+    noswup: true
